@@ -1,0 +1,26 @@
+{
+    "name": "assignment-submission-portal",
+    "version": "1.0.0",
+    "description": "Backend for assignment submission portal with user and admin functionalities.",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.9.7",
+      "dotenv": "^8.2.0",
+      "bcryptjs": "^2.4.3",
+      "jsonwebtoken": "^8.5.1",
+      "cors": "^2.8.5"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.3"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+  
+  
